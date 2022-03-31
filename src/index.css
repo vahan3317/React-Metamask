@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+    background: #fff;
+}
+
+body {
+    margin: 0 auto;
+}
+
+main {
+    margin-top: 60px;
+}
+
+.main-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(26, 168, 126);
+    padding: 0 2 rem;
+    border-radius: 12px;
+    box-shadow: 0 2px rgb(54, 58, 56);
+}
+
+.main-header h5 {
+    color: whitesmoke;
+    padding-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(247, 247, 247);
+    width: 100%;
+    padding-right: 10px;
+}
+
+a:hover,
+a:active {
+    color: bisque;
+    cursor: pointer;
+}
+
+h5:hover {
+    color: bisque;
+    cursor: pointer;
+}

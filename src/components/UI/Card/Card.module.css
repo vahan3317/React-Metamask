@@ -1,0 +1,7 @@
+.card {
+    background: rgb(11, 121, 88);
+    box-shadow: 0 2px rgb(54, 58, 56);
+    border-radius: 12px;
+    text-align: center;
+    color: whitesmoke;
+}
